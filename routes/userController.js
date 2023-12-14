@@ -2,7 +2,7 @@ const express = require("express");
 const router = express.Router();
 
 router.route("/").get(async (req, res) => {
-  res.send("Welcome to this guided project.");
+  res.send("Hello! Backend with NodeJs.");
 });
 
 module.exports = router;
